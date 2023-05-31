@@ -1,0 +1,39 @@
+:root{
+    --header-bg: #2c3e50;
+    --start-bg: #1abc9c;
+    /* ero convinto fossero senza backround */
+    --first-card: #ba4b63;
+    --second-card: #1ea4b6;
+    --third-card: #140f0f;
+    --fourth-card: #1c83c1;
+    --fifth-card: #0e38b5;
+    --sixth-card: #ccb2a3;
+}
+
+header{
+    background-color: var(--header-bg);
+}
+
+section:first-child{
+    background-color: var(--start-bg);
+}
+section:first-child h1{
+    font-size: 2.25rem;
+}
+
+.stardiv hr{
+    border: 5px solid white;
+
+}
+
+img{
+    width: 100%;
+}
+
+section:nth-child(2) .col-1{
+    border:1px solid red;
+}
+
+section:nth-child(3){
+    background-color: var(--start-bg);
+}
